@@ -24,8 +24,9 @@ Well, with a short link, browser and internet connection, you can! Just hop on t
 ## Contributing :heart:
 ShareTXT :star2: relies on the passionate members of its community to keep delivering impactful a tool to people all over the world.
 
-## License
+## License 📄
 
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
     <img src="https://data.whicdn.com/images/318894051/original.gif" width="150">
