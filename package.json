@@ -1,0 +1,28 @@
+{
+  "name": "sharetxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon-do/sharetxt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leon-do/sharetxt/issues"
+  },
+  "homepage": "https://github.com/leon-do/sharetxt#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "stylelint": {
+      "extends": "stylelint-config-recommended"
+  }
+}
