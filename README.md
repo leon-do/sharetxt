@@ -8,7 +8,7 @@
 </p>
   <sub>Built with ❤︎ by
     <a href="https://github.com/leon-do">Leon Do</a> and
-    <a href="https://github.com/liyasthomas/sharetxt/graphs/contributors">contributors</a>
+    <a href="https://github.com/leon-do/sharetxt/graphs/contributors">contributors</a>
   </sub>
 </div>
 
