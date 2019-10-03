@@ -1,23 +1,35 @@
-<textarea
-  id="txtArea"
-  style="width:100%; height:95vh; font-size:2em"
-></textarea>
+<html>
+  <head>
+    <title>ShareTXT</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  
+  <body>
+    <h2>ShareTXT</h2>
+    <h4>Just hop in and type!</h4>
+    
+    <textarea
+      id="txtArea"
+      style="width:100%; height:95vh; font-size:2em"
+    ></textarea>
 
-<script>
-  const socket = new WebSocket(
-    'wss://connect.websocket.in/h4ck3r_m4n?room_id=1989'
-  );
+    <script>
+      const socket = new WebSocket(
+        'wss://connect.websocket.in/h4ck3r_m4n?room_id=1989'
+      );
 
-  // Connection opened
-  socket.addEventListener('open', function(event) {
-    document.addEventListener('keyup', e => {
-      const text = document.getElementById('txtArea').value;
-      socket.send(text);
-    });
-  });
+      // Connection opened
+      socket.addEventListener('open', function(event) {
+        document.addEventListener('keyup', e => {
+          const text = document.getElementById('txtArea').value;
+          socket.send(text);
+        });
+      });
 
-  // Listen for messages
-  socket.addEventListener('message', function(event) {
-    document.getElementById('txtArea').value = event.data;
-  });
-</script>
+      // Listen for messages
+      socket.addEventListener('message', function(event) {
+        document.getElementById('txtArea').value = event.data;
+      });
+    </script>
+  </body>
+</html
