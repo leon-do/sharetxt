@@ -1,0 +1,24 @@
+{
+  "name": "sharetxt",
+  "version": "1.0.0",
+  "description": "### The minimalistic open text box Ever found yourself in a situation when you just have to write something? Maybe it's a blast of creativity and you suddenly have the perfect lyrics for a song? Or rather you just solved the traveling saleman's problem and need to write down the code? Well, with a short link, browser and internet connection, you can! Just hop on to [ShareTXT](https://sharetxt.xyz) and release your inventiveness!",
+  "main": "script.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lai32290@github.com/lai32290/sharetxt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lai32290/sharetxt/issues"
+  },
+  "homepage": "https://github.com/lai32290/sharetxt#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
