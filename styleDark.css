@@ -4,3 +4,9 @@ body {
   display: flex;
   justify-content: center;
 }
+
+/* Change these values to change background colour and text colour */ 
+textarea {
+  background-color: #1f2425;
+  color: #ffffff;
+}
