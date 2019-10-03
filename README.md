@@ -6,4 +6,4 @@ Well, with a short link, browser and internet connection, you can! Just hop on t
 
 (Psst, here's how it looks like!)
 
-[](https://imgur.com/MfpLPl8.gif)
+![](https://imgur.com/MfpLPl8.gif)
