@@ -4,13 +4,32 @@ const socket = new WebSocket(
 
 // Connection opened
 socket.addEventListener('open', function(event) {
+
+  //Notify On New Connection
+  socket.send('connection-notify');
+
+  //On New Write Up
   document.addEventListener('keyup', e => {
     const text = document.getElementById('txtArea').value;
-  socket.send(text);
+    socket.send('message'+"-"+text);
   });
-});
+})
+
 
 // Listen for messages
 socket.addEventListener('message', function(event) {
-  document.getElementById('txtArea').value = event.data;
+
+  //Type Of Message
+  var split=event.data.split("-");
+
+  if(split[0]==="connection"){
+
+    //Using Notify.js for notification
+    $.notify("New Connection Added!!", "success");
+  }
+
+  else{
+    document.getElementById('txtArea').value = split[1];
+  }
+
 });
