@@ -2,11 +2,15 @@ body {
   padding: 10px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   justify-content: center;
-  background: black;
+}
+
+/* Shared styles (Light mode) */
+body, #txtArea {
+  background-color: #ddd;
+  color: #1f2425;
 }
 
 #txtArea {
-  background: #ddd;
   border: 10px solid #fff;
   border-radius: 10px;
 }
@@ -14,5 +18,12 @@ body {
 .title {
   font-size: 60px;
   text-align: center;
-  color: #ddd;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body, #txtArea {
+    background-color: #1f2425;
+    color: #fff;
+  } 
 }
