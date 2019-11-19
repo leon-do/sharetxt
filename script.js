@@ -1,5 +1,5 @@
 const socket = new WebSocket(
-  'wss://connect.websocket.in/h4ck3r_m4n?room_id=1989'
+  'wss://connect.websocket.in/v2/h4ck3r_m4n?room_id=1989'
 );
 
 // Connection opened
