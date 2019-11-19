@@ -25,22 +25,6 @@ Well, with a short link, browser and internet connection, you can! Just hop on t
 
 [https://sharetxt.xyz](https://sharetxt.xyz)
 
-## Contributing :heart:
-ShareTXT :star2: relies on the passionate members of its community to keep delivering impactful a tool to people all over the world.
-
-### Collaborators
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/leon-do"><img src="https://github.com/leon-do.png?size=100" width="100px;" alt="Leon Do"/><br /><sub><b>Leon Do</b></sub></a><br /><a href="https://github.com/leon-do/sharetxt/commits?author=leon-do" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/rodgeraraujo"><img src="https://github.com/rodgeraraujo.png?size=100" width="100px;" alt="Rogério Araújo"/><br /><sub><b>Rogério Araújo</b></sub></a><br /><a href="https://github.com/leon-do/sharetxt/commits?author=rodgeraraujo" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/aachh"><img src="https://github.com/aachh.png?size=100" width="100px;" alt="Antoni Chmiela"/><br /><sub><b>Antoni Chmiela</b></sub></a><br /><a href="https://github.com/leon-do/sharetxt/commits?author=aachh" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/schmitty890"><img src="https://github.com/schmitty890.png?size=100" width="100px;" alt="Jason Schmitt"/><br /><sub><b>Jason Schmitt</b></sub></a><br /><a href="https://github.com/leon-do/sharetxt/commits?author=schmitty890" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/hpez"><img src="https://github.com/hpez.png?size=100" width="100px;" alt="Hassan Pezeshk"/><br /><sub><b>Hassan Pezeshk</b></sub></a><br /><a href="https://github.com/leon-do/sharetxt/commits?author=hpez" title="Code">💻</a></td>
-  </tr>
-</table>
-
-See the list of [contributors](https://github.com/leon-do/sharetxt/graphs/contributors) who participated in this project.
-
 ## License 📄
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
