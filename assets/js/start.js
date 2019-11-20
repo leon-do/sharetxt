@@ -1,5 +1,5 @@
 // start button
-const randomId = Math.floor(Math.random() * 10000)
+const randomId = Math.ceil(Math.random() * 9999)
 
 // create link for button
 $('#startButton').attr('href', `${config.url}/id?${randomId}`)
