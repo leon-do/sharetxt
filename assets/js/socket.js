@@ -1,5 +1,4 @@
-const id = window.location.pathname.split('id.html/').pop()
-console.log(id)
+const id = window.location.search.split('?').pop()
 
 const socket = new WebSocket(
   `wss://connect.websocket.in/v2/${id}?token=${config.token}`
