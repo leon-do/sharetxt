@@ -61,3 +61,17 @@
   color: transparent;
 }
 
+#txtArea:focus::placeholder {
+  color: transparent;
+  /*outline: none;*/
+}
+
+#txtArea:focus::placeholder {
+  color: transparent;
+  /*outline: none;*/
+}
+
+#txtArea:focus {
+  outline: none;
+}
+
