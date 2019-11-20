@@ -1,13 +1,11 @@
-// number between 1-10000
-const channelId = '123'
+const id = window.location.pathname.split('id.html?').pop()
 
 const socket = new WebSocket(
-  `wss://connect.websocket.in/v2/${channelId}?token=${config.token}`
+  `wss://connect.websocket.in/v2/${id}?token=${config.token}`
 );
 
 // Connection opened
 socket.addEventListener('open', function(event) {
-    console.log(event)
   document.addEventListener('keyup', e => {
     const text = document.getElementById('txtArea').value;
     socket.send(text);
