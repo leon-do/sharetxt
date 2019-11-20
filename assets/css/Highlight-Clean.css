@@ -57,3 +57,7 @@
   color: #fff;
 }
 
+#txtArea:focus::placeholder {
+  color: transparent;
+}
+
