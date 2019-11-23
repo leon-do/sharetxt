@@ -8,8 +8,7 @@ db.collection("txt").doc(id)
 });
 
 
-$('#saveButton').click(e => {
-    alert('asdf')
+$('#saveButton').click(() => {
     const text = $('#txtArea').val();
     db.collection("txt").doc(id).set({
         text: text
