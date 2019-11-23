@@ -1,13 +1,13 @@
 const config = {
     url: 'sharetxt.xyz',
     firebase: {
-        apiKey: "AIzaSyDSs1nZUH46tiLN1KpLTTbvdqdsao0f3Fw",
-        authDomain: "sharetxt-21e7c.firebaseapp.com",
-        databaseURL: "https://sharetxt-21e7c.firebaseio.com",
-        projectId: "sharetxt-21e7c",
-        storageBucket: "sharetxt-21e7c.appspot.com",
-        messagingSenderId: "982452079415",
-        appId: "1:982452079415:web:d71500e3581e5c0b5068b2",
-        measurementId: "G-7HP6HYFDZZ"
+        apiKey: "AIzaSyDi9uEMhaQxE1LUmAYvfrp6Bo3PYCEpxt4",
+        authDomain: "sharetxt-xyz.firebaseapp.com",
+        databaseURL: "https://sharetxt-xyz.firebaseio.com",
+        projectId: "sharetxt-xyz",
+        storageBucket: "sharetxt-xyz.appspot.com",
+        messagingSenderId: "92128793238",
+        appId: "1:92128793238:web:c37c1cd49933ae892068b7",
+        measurementId: "G-PW4KCVXL65"
     }
 }
