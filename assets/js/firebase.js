@@ -8,9 +8,19 @@ db.collection("txt").doc(id)
 });
 
 
-$('#saveButton').click(() => {
+const saveText = () => {
     const text = $('#txtArea').val();
     db.collection("txt").doc(id).set({
         text: text
     })
+};
+
+// Save text on click
+$("#saveButton").on("click", saveText);
+
+// Save text on 'Ctrl + Enter' shortcut
+$("#txtArea").keyup(function(e) {
+    if (e.ctrlKey && e.keyCode == 13) {
+        saveText();
+    }
 });
